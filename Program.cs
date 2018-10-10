@@ -100,10 +100,10 @@ List<int> wheresSquaredo = new List<int>()
 {
     66, 12, 8, 27, 82, 34, 7, 50, 19, 46, 81, 23, 30, 4, 68, 14
 };  
- List<int> nonSquares = wheresSquaredo.TakeWhile(n => Math.Sqrt(n) % 1 != 0).ToList();
-            foreach (var item in nonSquares)
+ List<int> newList = wheresSquaredo.TakeWhile(n => Math.Sqrt(n) % 1 != 0).ToList();
+            foreach (int num in newList)
             {
-                Console.WriteLine(item);
+                Console.WriteLine(num);
             }
     }
 }
