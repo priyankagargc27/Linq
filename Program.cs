@@ -46,7 +46,15 @@ List<string> names = new List<string>()
     "Francisco", "Tre"
 };
 
-List<string> descend = ...
-        }
+var des= 
+from n in names 
+orderby n  descending
+select n;  
+Console.WriteLine("Student Names by desecnding order") ;
+foreach(string n in des)
+{
+    Console.WriteLine(n);
+}   
+ }
     }
 }
