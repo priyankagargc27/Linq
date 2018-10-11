@@ -152,14 +152,7 @@ List<int> wheresSquaredo = new List<int>()
         };
 
 
-        // var result =
-        //           from c in customers
-        //           group c by c.Bank into g
-        //         select new { Bank = g.Key, customers = g };
-        //         foreach(var b in result)
-        //         Console.WriteLine(b.Bank,b.customers.Count());
-        // }
-                 
+         
 /*
     Given the same customer set, display how many millionaires per bank.
     Ref: https://stackoverflow.com/questions/7325278/group-by-in-linq
